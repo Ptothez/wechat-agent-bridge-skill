@@ -5,6 +5,8 @@ description: 帮用户把微信文字消息转交给电脑上的 AI Agent，并�
 
 # 微信连接 Agent
 
+English: Forward WeChat text to a locally configured AI agent and return its reply. Configure and verify a JSON adapter for the chosen agent; support is not tied to one vendor.
+
 用户提供想连接的 Agent、工作目录和允许的操作范围；你配置收发程序及适配器，验证后交付启动、停止和故障检查方法。
 
 1. 先询问或从已知信息确认 Agent 和工作目录，读取该 CLI 的官方说明，核实非交互输入、回答输出、会话恢复与权限处理方式。
